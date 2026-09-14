@@ -54,7 +54,7 @@ export default function Dashboard() {
         return { ...c, enrolled: c.capacity, availableSeats: 0, status: 'Full' };
       }
       return c;
-    });
+    }));
   };
 
   return (
