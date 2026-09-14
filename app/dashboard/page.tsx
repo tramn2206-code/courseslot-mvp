@@ -44,7 +44,7 @@ export default function Dashboard() {
         return { ...c, enrolled: c.enrolled - 1, availableSeats: c.availableSeats + 1, status: 'Available' };
       }
       return c;
-    });
+    }));
   };
 
   const simulateCourseFull = (courseId: string) => {
