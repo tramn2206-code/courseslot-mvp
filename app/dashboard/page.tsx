@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect, useRef } from 'react';
 import { initialMockCourses, CourseData } from '../../lib/demo-provider';
-import { Bell, Play, Pause, ExternalLink, ShieldAlert, CheckCircle2, AlertCircle } from 'lucide-react';
+import { Bell, Play, Pause, ExternalLink, ShieldAlert, CheckCircle2, AlertCircle, Activity } from 'lucide-react';
 import Link from 'next/link';
 
 export default function Dashboard() {
